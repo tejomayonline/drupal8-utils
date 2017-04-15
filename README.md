@@ -16,11 +16,11 @@ can be used as shell script or bash aliases function
   the function takes 3 arguments as parameter to execute
 	 1. 1st argument is for drupal project name   
 	 2.  2nd is for database of your drupal project will use   
-	 3.  3rd is the drupal site name
-	 
-	 It can used as bash aliases in your .bash_aliases .
+	 3.  3rd is the drupal site name 	 
+	 It can used as bash aliases in your .bash_aliases.
 	 just add the inner code of this .bash_aliases to your bash aliases
 	 then source it and use it by
+
 	 ```
 	 d8init drupal-prject-name  drupal-database-name  drupal-site-name
 	 ```
