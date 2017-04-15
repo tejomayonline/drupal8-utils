@@ -1,0 +1,13 @@
+{
+    "name": "tejomayonline/drupal8-utils",
+    "description": "install fresh composer based drupal8 site in one hit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tejomayonline",
+            "email": "tejomaysaha@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
