@@ -21,15 +21,12 @@ can be used as shell script or bash aliases function
 	 just add the inner code of this .bash_aliases to your bash aliases
 	 then source it and use it by
 
-	 ```
 	 d8init drupal-prject-name  drupal-database-name  drupal-site-name
-	 ```
-
+	 
 to use it
 ```
 cd drupal8-utils
    ./drupal8-install.sh drupal-prject-name  drupal-database-name  drupal-site-name
-        
 ```
 
 you are done..
