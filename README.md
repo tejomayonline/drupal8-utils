@@ -1,5 +1,6 @@
 # Drupal 8 utilities and extras
 > install fresh composer based drupal8 site in one hit
+[![Latest Stable Version](https://poser.pugx.org/tejomayonline/drupal8-utils/v/stable)](https://packagist.org/packages/tejomayonline/drupal8-utils)  [![Total Downloads](https://poser.pugx.org/tejomayonline/drupal8-utils/downloads)](https://packagist.org/packages/tejomayonline/drupal8-utils)[![Latest Unstable Version](https://poser.pugx.org/tejomayonline/drupal8-utils/v/unstable)](https://packagist.org/packages/tejomayonline/drupal8-utils)   [![License](https://poser.pugx.org/tejomayonline/drupal8-utils/license)](https://packagist.org/packages/tejomayonline/drupal8-utils)  [![Monthly Downloads](https://poser.pugx.org/tejomayonline/drupal8-utils/d/monthly)](https://packagist.org/packages/tejomayonline/drupal8-utils)  [![Daily Downloads](https://poser.pugx.org/tejomayonline/drupal8-utils/d/daily)](https://packagist.org/packages/tejomayonline/drupal8-utils)  [![composer.lock](https://poser.pugx.org/tejomayonline/drupal8-utils/composerlock)](https://packagist.org/packages/tejomayonline/drupal8-utils)
 
 One to two paragraph statement about your product and what it does.
 
