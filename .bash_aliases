@@ -1,15 +1,14 @@
 function d8init(){
- cd /var/www/html
-composer create-project drupal-composer/drupal-project:8.x-dev $1 --stability dev --no-interaction
-  echo "$1=project name /$2=dbname/$3=site-name"
-  mysqladmin -u root -p12345 create $2
-  cd /var/www/html/$1/web
+  cd /var/www/html
+read -p "Enter your 1.project_name/2.db_name/3.place_of_install/4.account_mail/5.account_name/6.account_pass/7.site_mail/8.site_name : " project_name  db_name place_of_install account_mail account_name account_pass site_mail site_name
+composer create-project drupal-composer/drupal-project:8.x-dev $project_name --stability dev --no-interaction
+  mysqladmin -u root -p12345 create $dbname
+  cd $place_of_install/$project_name/web
 ../vendor/drush/drush/drush site-install standard \
-  --db-url=mysql://root:12345@localhost/$2 \
-  --account-mail="tejomay.saha10@gmail.com" \
-  --account-name=admin \
-  --account-pass=12345 \
-  --site-mail="tejomay.saha10@gmail.com" \
-  --site-name="$3"
-
+  --db-url=mysql://root:12345@localhost/$db_name\
+  --account-mail=$account_mail \
+  --account-name=$account_name \
+  --account-pass=$account_pass \
+  --site-mail=$site_mail \
+  --site-name=$site_name
 }

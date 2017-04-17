@@ -13,13 +13,13 @@ Currently It is for using in LAMP stacks.In future it will support other stacks 
  LEMP too
 
 It is to a shell script bash
-
+"Enter your 1.project_name/2.db_name/3.place_of_install/4.account_mail/5.account_name/6.account_pass/7.site_mail/8.site_name : 
 can be used as shell script or bash aliases function
   the function takes 3 arguments as parameter to execute
 	 1. 1st argument is for drupal project name   
 	 2.  2nd is for database of your drupal project will use   
-	 3.  3rd is the drupal site name 	 
-	 It can used as bash aliases in your .bash_aliases.
+	 3.  your web root like /var/www/html(apache) or /var/www(nginx)	 
+	 It can used as bash aliases in your .bash_aliases.0
 	 just add the inner code of this .bash_aliases to your bash aliases
 	 then source it and use it by
 
