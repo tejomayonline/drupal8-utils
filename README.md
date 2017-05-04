@@ -46,6 +46,9 @@ you are done..
 The drupal8-install.sh script uses the [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project) repository template
 for composer based drupal 8 installation.for further use please refer to this link. 
 
+
+for installing any php version refer <a href="/doc/php-install.md">php-install.sh</a>
+
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 
